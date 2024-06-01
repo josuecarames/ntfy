@@ -1,0 +1,12 @@
+upstream-base-url: "https://ntfy.sh"
+cache-file: "/var/cache/ntfy/cache.db"
+attachment-cache-dir: "/var/cache/ntfy/attachments"
+# Proxy Configuration
+behind-proxy: true
+# iOS
+base-url: "https://ntfy.securetechnique.com"
+# Authentication
+auth-file: "/var/lib/ntfy/user.db"
+auth-default-access: "deny-all"
+enable-signup: true
+enable-login: true
